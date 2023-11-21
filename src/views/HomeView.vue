@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import SimpleForm from '@/components/SimpleForm.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h1>Home</h1>
+
+    <SimpleForm />
   </main>
 </template>
